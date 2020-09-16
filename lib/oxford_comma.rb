@@ -6,6 +6,6 @@ def oxford_comma(array)
   elsif array.length >= 3
     array.join(" and ")
   else
-     return array.length == 1
+     array.length == 1
  end
 end
